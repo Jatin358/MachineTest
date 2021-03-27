@@ -1,0 +1,177 @@
+:host { display:block }
+.outer{
+    display: flex;
+    flex-direction: column;
+    .epic-game{
+        display: flex;
+        flex-direction: row;
+        background: #E5E5E5;
+        padding-top: 149px;
+        .epic-texts{
+            display: flex;
+            flex-direction: column;
+            padding-left: 240px;
+            .heading{
+                width: 442px;
+                height: 132px;
+                font-family: Anton;
+                font-weight: 400;
+                font-size: 90px;
+                line-height: 132.03px;
+                text-align: justify;
+
+            }
+            .epic-para{
+
+                font-family: Epilogue;
+                    width: 583px;
+                    height: 64px;
+                    font-size: 30px;
+                    line-height: 32px;
+                    padding-top: 20px;
+            }
+            .google-buttons{
+                display: flex;
+                flex-direction: row;
+                padding-top: 65px;
+                .apple-store{
+                    width: 245px;
+                    height: 75px;
+                    border: 2px solid black;
+                    border-radius: 37px;
+                    margin-right: 32px;
+                    align-items: center;
+                    place-content: center;
+                    display: flex;
+                    .padding-class{
+                        display: flex;
+                        align-items: center;
+                        place-content: center;
+                    }
+                }
+                .google-play{
+                    width: 245px;
+                    height: 75px;
+                    border: 2px solid black;
+                    border-radius: 37px;
+                    align-items: center;
+                    place-content: center;
+                    display: flex;
+                    .padding-class{
+                        display: flex;
+                        align-items: center;
+                        place-content: center;
+                    }
+                }
+            }
+            }
+        }
+        .sky-not-a-limit{
+            display: flex;
+            flex-direction: row;
+            padding-top: 100px;
+            .outside-scene{
+                padding-left: 240px;
+            }
+            .sky-texts{
+                display: flex;
+                flex-direction: column;
+                padding-left: 75px;
+                .subzi-heading{
+                    width: 166px;
+                    height: 44px;
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 44.01px;
+                    font-family: Anton;
+                    color: #87EA00;
+                }
+                .sky-heading-1{
+                    width: 350px;
+                    height: 176px;
+                    font-weight: 400;
+                    font-size: 60px;
+                    line-height: 88.02px;
+                    font-family: Anton;
+                }
+                .sky-para{
+                    width: 375px;
+                    height: 112px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-family: Epilogue;
+                    padding-top: 215px;
+                }
+                .check-games{
+                    width: 167px;
+                    height: 28px;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 28px;
+                    font-family: Epilogue;
+                    color: #87EA00;
+                    padding-top: 61px;
+                }
+            }
+        }
+        .rev-of-gamers{
+            display: flex;
+            flex-direction: row;
+            padding-top: 229px;
+            .revolution-texts{
+                display: flex;
+                flex-direction: column;
+                padding-left: 240px;
+                .about{
+                    width: 200px;
+                    height: 44px;
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 44.01px;
+                    font-family: Anton;
+                    color: #87EA00;
+
+                }
+                .revolution-heading{
+                    width: 550px;
+                    height: 88px;
+                    font-weight: 400;
+                    font-size: 60px;
+                    line-height: 88.02px;
+                    font-family: Anton;
+
+                }
+                .revolution-para-1{
+                    width: 593px;
+                    height: 56px;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 28px;
+                    font-family: Epilogue;
+                    padding-top: 16px;
+                }
+                .revolution-para-2{
+                    width: 583px;
+                    height: 168px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-family: Epilogue;
+                    padding-top: 40px;
+                }
+                .revolution-para-3{
+                    width: 583px;
+                    height: 112px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-family: Epilogue;
+                    padding-top: 24px;
+                }
+            }
+            .desktop-pic{
+                padding-left: 237px;
+            }
+        }
+    }

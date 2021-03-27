@@ -1,0 +1,91 @@
+.footer-outer{
+    display: flex;
+    flex-direction: column;
+    .top-footer-div{
+        display: flex;
+        flex-direction: row;
+        background: #87EA00;
+        height: 356px;
+        .heading-para{
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height: 88px;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 88.02px;
+            font-family: Anton;
+            color: #0F3A06;
+            padding-left: 367px;
+            padding-top:100px;
+            .para-1{
+                width:593px;
+                height: 56px;
+                top: 2859px;
+                left:367px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                font-family: Anton;
+                color: #000000;
+            }
+        }
+        .join-us{
+            align-items: center;
+            place-content: center;
+            display: flex;
+            flex-direction: row;
+            .join-button{
+                width: 235px;
+                height: 35px;
+                border: 2px solid #000000;
+                border-radius: 37px;
+                left: 1323px;
+                position: absolute;
+                align-items: center;
+                place-content: center;
+                display: flex;
+            }
+
+        }
+    }
+    .bottom-footer-div{
+        display: flex;
+        flex-direction: row;
+        height: 224px;
+        background: #0A0B0E;
+        align-items: center;
+        place-content: center;
+        display: flex;
+        justify-content: space-between;
+        .copyright{
+            display: flex;
+            flex-direction: column;
+            padding-left: 240px;
+            .cpyrgt{
+                color: #FFFFFF;
+                padding-top: 15.98px;
+            }
+        }
+        .links{
+            display: flex;
+            flex-direction: row;
+            .colour{
+                color: #FFFFFF;
+            }
+        }
+        .more{
+            display: flex;
+            flex-direction: row;
+            padding-right: 266px;
+            .colour{
+                color: #FFFFFF;
+                
+            }
+            .span-field{
+                padding-left: 45px;
+                padding-right: 45px;
+            }
+        }
+    }
+}

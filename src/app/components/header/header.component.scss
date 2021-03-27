@@ -1,0 +1,20 @@
+.outer{
+    display: flex;
+    flex-direction: row;
+    background: #E5E5E5;
+    padding-top: 25px;
+    place-content: space-between;
+    .subzi-logo{
+        padding-left: 90px;
+    }
+    .header-elements{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        place-content: center;
+        padding-right: 90px;
+        .arr-elements{
+            margin-left: 80px;
+        }
+    }
+}
